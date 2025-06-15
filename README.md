@@ -7,6 +7,9 @@ GRANT ALL PRIVILEGES ON *.* TO 'barath'@'%' WITH GRANT OPTION;   -------------> 
 
 FLUSH PRIVILEGES;
 
+
+SELECT User, Host FROM mysql.user;    ------> to list all user
+
 mysql -u barath -p   --------->  To Set or Change PASSWD to the USER
 
 create database notes_app;   ------> To create a database.
